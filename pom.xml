@@ -16,6 +16,10 @@
         <java.version>17</java.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
+
+        <springframework-6.version>[6.0.0, 7.0.0)</springframework-6.version>
+        <spring-boot-3.version>[3.0.0, 4.0.0)</spring-boot-3.version>
+        <spring-data-4.mongodb.version>4.8.0-beta0</spring-data-4.mongodb.version>
     </properties>
 
 </project>
