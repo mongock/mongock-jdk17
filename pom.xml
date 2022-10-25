@@ -12,27 +12,17 @@
 
     <artifactId>mongock-jdk17-parent</artifactId>
     <version>5.1.6-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <properties>
         <java.version>17</java.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-
-        <springframework-6.version>[6.0.0, 7.0.0)</springframework-6.version>
-        <spring-boot-3.version>[3.0.0, 4.0.0)</spring-boot-3.version>
-        <spring-data-4.mongodb.version>4.8.0-beta0</spring-data-4.mongodb.version>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
+    <modules>
+        <module>spring</module>
+    </modules>
 
 
 
