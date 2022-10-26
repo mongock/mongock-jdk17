@@ -13,8 +13,8 @@
     <artifactId>spring</artifactId>
     <packaging>pom</packaging>
     <properties>
-        <springframework-6.version>[6.0.0, 7.0.0)</springframework-6.version>
-        <spring-boot-3.version>[3.0.0, 4.0.0)</spring-boot-3.version>
+        <springframework-6.version>[6.0.0-RC2, 7.0.0)</springframework-6.version>
+        <spring-boot-3.version>[3.0.0-RC1, 4.0.0)</spring-boot-3.version>
         <spring-data-4.mongodb.version>4.8.0-beta0</spring-data-4.mongodb.version>
     </properties>
     <modules>
