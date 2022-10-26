@@ -21,6 +21,7 @@ public class SpringDependencyContext implements DependencyContext {
   @Override
   public <T> Optional<T> getBean(Class<T> type) {
     try {
+
       return Optional.ofNullable(springContext.getBean(type));
     } catch (BeansException ex) {
       return Optional.empty();
