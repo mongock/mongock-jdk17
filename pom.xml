@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>mongock-jdk17-parent</artifactId>
-    <version>5.2.1-SNAPSHOT</version>
+    <version>5.2.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
