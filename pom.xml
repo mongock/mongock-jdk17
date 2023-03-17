@@ -7,11 +7,11 @@
     <parent>
         <groupId>io.mongock</groupId>
         <artifactId>mongock</artifactId>
-        <version>5.2.3</version>
+        <version>5.2.4-SNAPSHOT</version>
     </parent>
 
     <artifactId>mongock-jdk17-parent</artifactId>
-    <version>5.2.3-SNAPSHOT</version>
+    <version>5.2.4-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -19,7 +19,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
 
-        <mongock.community.version>5.2.3</mongock.community.version>
+        <mongock.community.version>5.2.4-SNAPSHOT</mongock.community.version>
     </properties>
 
     <modules>
