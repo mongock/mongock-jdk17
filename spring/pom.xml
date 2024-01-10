@@ -17,10 +17,13 @@
         <spring-boot-3.version>[3.0.0-RC1, 4.0.0)</spring-boot-3.version>
         <spring-data-4.version>4.0.0-RC1</spring-data-4.version>
         <spring-data-4.mongodb.version>4.8.0-beta0</spring-data-4.mongodb.version>
+        <spring-data-5.couchbase.version>5.2.1</spring-data-5.couchbase.version>
+        <couchbase-java-client.version>3.5.1</couchbase-java-client.version>
     </properties>
     <modules>
         <module>mongock-springboot-v3</module>
         <module>mongodb-springdata-v4-driver</module>
+        <module>couchbase-springboot-v3-driver</module>
     </modules>
 
     <repositories>
