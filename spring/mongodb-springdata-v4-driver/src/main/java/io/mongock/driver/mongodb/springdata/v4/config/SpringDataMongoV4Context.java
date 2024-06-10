@@ -6,9 +6,6 @@ import org.springframework.boot.autoconfigure.*;
 import org.springframework.boot.autoconfigure.condition.*;
 import org.springframework.boot.context.properties.*;
 import org.springframework.data.mongodb.core.*;
-import org.springframework.transaction.*;
-
-import java.util.*;
 
 @AutoConfiguration
 @ConditionalOnExpression("${mongock.enabled:true}")
@@ -19,8 +16,7 @@ public class SpringDataMongoV4Context extends SpringDataMongoV4ContextBase<Mongo
   @Override
   protected SpringDataMongoV4Driver buildDriver(MongoTemplate mongoTemplate,
                                                 MongockConfiguration config,
-                                                MongoDBConfiguration mongoDbConfig,
-                                                Optional<PlatformTransactionManager> txManagerOpt) {
+                                                MongoDBConfiguration mongoDbConfig) {
     return SpringDataMongoV4Driver.withLockStrategy(
         mongoTemplate,
         config.getLockAcquiredForMillis(),
